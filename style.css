@@ -1,0 +1,106 @@
+:root {
+    --primary: #f5f5f5;
+    --secondary: rgb(33, 33, 33);
+    --secondary-light: rgba(33, 33, 33, .25);
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 12pt;
+}
+
+html {
+    display: flex;
+    justify-content: center;
+    background-image: url(./images/background.jpg);
+    background-repeat: repeat;
+}
+
+body {
+    background-color: var(--secondary-light);
+    padding: 12pt;
+    margin: 12pt;
+    border-radius: 6pt;
+}
+
+body,
+img,
+.special {
+    width: 512px;
+}
+
+.special {
+    display: flex;
+    justify-content: center;
+}
+
+nav,
+.heading,
+#back {
+    margin-top: 12pt;
+    margin-bottom: 12pt;
+    padding: 3pt;
+
+    font-size: 16pt;
+    border-radius: 3pt;
+    border-style: solid;
+
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+    color: var(--primary);
+}
+
+#back:hover {
+    border-style: solid;
+    border-color: var(--primary);
+}
+
+.heading {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h1.heading {
+    font-size: 24pt;
+}
+
+a {
+    color: var(--secondary);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ol,
+ul {
+    padding: 0 0 0 24pt;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ol li::marker {
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav a {
+    color: var(--primary);
+    padding: 3pt 6pt;
+    border-radius: 3pt;
+    border-width: 1pt;
+    border-style: solid;
+    border-color: var(--primary);
+}
+
+nav a:hover {
+    color: var(--secondary);
+    border-color: var(--secondary);
+    background: var(--primary);
+}
