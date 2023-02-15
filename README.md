@@ -11,6 +11,8 @@ TODO
 
 ## Sources
 
+All links have been tested on the 15. Feb 2023.
+
 - Homepage image <https://philosophyofyum.com/>
 - Langos recipe and image <https://www.chefkoch.de/rezepte/962401201795317/Langos.html>
 - White bread recipe and image <https://www.chefkoch.de/rezepte/19041004878652/Kastenweissbrot.html>
