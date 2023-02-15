@@ -7,7 +7,9 @@ Further, one should work with various HTML elements and consider during that pro
 
 ## Lessons learned
 
-TODO
+Creating a simple website with HTML is straightforward.
+Solely focusing on the structure is essential, especially considering accessibility, meaning utilising elements with the appropriate semantic meaning.
+Besides the HTML aspect, a project requires good structure because larger projects probably become unreadable.
 
 ## Sources
 
