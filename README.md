@@ -8,3 +8,10 @@ Further, one should work with various HTML elements and consider during that pro
 ## Lessons learned
 
 TODO
+
+## Sources
+
+- Homepage image <https://philosophyofyum.com/>
+- Langos recipe and image <https://www.chefkoch.de/rezepte/962401201795317/Langos.html>
+- White bread recipe and image <https://www.chefkoch.de/rezepte/19041004878652/Kastenweissbrot.html>
+- Brioche recipe and image <https://www.youtube.com/watch?v=rrWLuHK7sAg>
