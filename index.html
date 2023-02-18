@@ -9,21 +9,32 @@
 
     <title>Bakery Recipes</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <h1 class="heading">Bakery Recipes</h1>
+    <div class="container">
+        <header class="secondary normal-pad">
+            <h1 class="heading">Bakery Recipes</h1>
+        </header>
 
-    <img src="./images/home-bakery.jpeg" alt="Ingredients for bakery products" width="512">
+        <main class="primary">
+            <img src="./images/home-bakery.jpeg" alt="Ingredients for bakery products" class="primary normal-margin">
 
-    <nav>
-        <a href="recipes/brios.html">Briós</a>
-        <a href="recipes/white_bread.html">White Bread</a>
-        <a href="recipes/langos.html">Lángos</a>
-    </nav>
+            <nav class="normal-margin large-pad">
+                <ul class="no-pad no-margin">
+                    <li><a class="secondary normal-pad round link" href="recipes/brios.html">Briós</a></li>
+                    <li><a class="secondary normal-pad round link" href="recipes/white_bread.html">White Bread</a></li>
+                    <li><a class="secondary normal-pad round link" href="recipes/langos.html">Lángos</a></li>
+                </ul>
+            </nav>
+        </main>
 
-    Visit the <a href="https://github.com/jctemp/website-recipes">repository</a> to see the project.
-
+        <footer class="secondary large-pad">
+            You can find more about this page on the repository page. To that, click the GitHub icon
+            <a href="https://github.com/jctemp/website-recipes" class="fa fa-github fa-2x secondary link-invert"></a>
+        </footer>
+    </div>
 </body>
 
 </html>
